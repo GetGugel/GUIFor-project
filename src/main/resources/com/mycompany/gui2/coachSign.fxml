@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="284.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gui2.SecondaryController1">
+<AnchorPane prefHeight="284.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gui2.coachSignIn">
    <children>
       <VBox prefHeight="437.0" prefWidth="776.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -38,7 +38,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck1" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck1C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
@@ -48,7 +48,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck2" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck2C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                            </children>
@@ -62,7 +62,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck3" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck3C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
@@ -72,7 +72,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck4" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck4C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                            </children>
@@ -86,7 +86,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck5" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck5C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
@@ -96,7 +96,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck6" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck6C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                            </children>
@@ -110,7 +110,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck7" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck7C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
@@ -120,7 +120,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck8" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck8C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                            </children>
@@ -134,7 +134,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck9" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck9C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
@@ -144,7 +144,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck10" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck10C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                            </children>
@@ -158,7 +158,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck11" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck11C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
@@ -168,12 +168,12 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <CheckBox fx:id="signUpCheck12" mnemonicParsing="false" text="Im Available" />
+                                    <CheckBox fx:id="signUpCheck12C" mnemonicParsing="false" text="Im Available" />
                                  </children>
                               </VBox>
                            </children>
                         </HBox>
-                        <Button fx:id="signUpConfirmButton" mnemonicParsing="false" onAction="#switchToSecondary" text="Confirm " />
+                        <Button mnemonicParsing="false" onAction="#switchToSecondary" text="Confirm " />
                      </children>
                   </VBox>
                   <VBox alignment="CENTER" prefHeight="483.0" prefWidth="834.0" spacing="20.0">
@@ -191,7 +191,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <TextField fx:id="createFirstName" />
+                                    <TextField fx:id="createCoachFirstName" />
                                  </children>
                               </VBox>
                            </children>
@@ -205,7 +205,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <TextField fx:id="createLastName" />
+                                    <TextField fx:id="createCoachLastName" />
                                  </children>
                               </VBox>
                            </children>
@@ -214,12 +214,12 @@
                            <children>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <Label prefHeight="17.0" prefWidth="111.0" text="Coach's last name" />
+                                    <Label text="Your Coach  ID" />
                                  </children>
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <TextField fx:id="createCoachName" />
+                                    <TextField fx:id="createCoachID" />
                                  </children>
                               </VBox>
                            </children>
@@ -233,7 +233,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <TextField fx:id="createUserName" prefWidth="172.0" />
+                                    <TextField fx:id="createCoachUserName" prefWidth="172.0" />
                                  </children>
                               </VBox>
                            </children>
@@ -247,7 +247,7 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <TextField fx:id="createPassword" />
+                                    <TextField fx:id="createCoachPassword" />
                                  </children>
                               </VBox>
                            </children>
@@ -261,14 +261,14 @@
                               </VBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
-                                    <TextField fx:id="createPassword2" />
+                                    <TextField fx:id="createCoachPassword2" />
                                  </children>
                               </VBox>
                            </children>
                         </HBox>
                         <HBox alignment="CENTER" prefHeight="3.0" prefWidth="736.0">
                            <children>
-                                <Button fx:id="createAccountButton" onAction="#writeToTxt" text="Sign up">
+                                <Button fx:id="createCoachAccountButton" onAction="#writeToTxt" text="Sign up">
                                  <HBox.margin>
                                     <Insets bottom="20.0" />
                                  </HBox.margin>

@@ -28,8 +28,6 @@ public class SecondaryController1 {
     @FXML
     private Button createAccountButton;
     @FXML
-    private TextField signUpDayField;
-    @FXML
     private CheckBox signUpCheck1;
     @FXML
     private CheckBox signUpCheck2;
@@ -45,6 +43,18 @@ public class SecondaryController1 {
     private CheckBox signUpCheck7;
     @FXML
     private CheckBox signUpCheck8;
+    @FXML
+    private CheckBox signUpCheck9;
+    @FXML
+    private CheckBox signUpCheck10;
+    @FXML
+    private CheckBox signUpCheck11;
+    @FXML
+    private CheckBox signUpCheck12;
+    @FXML
+    private TextField signUpDayFieldCoach;
+    @FXML
+    private Button signUpConfirmButton;
 
     @FXML
     private void switchToSecondary() throws IOException {
