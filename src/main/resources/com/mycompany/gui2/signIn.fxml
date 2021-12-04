@@ -5,11 +5,13 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="284.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gui2.SecondaryController1">
+<AnchorPane prefHeight="284.0" prefWidth="789.0" style="-fx-background-color: BEIGE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gui2.SecondaryController1">
    <children>
       <VBox prefHeight="437.0" prefWidth="776.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -24,7 +26,7 @@
                            <children>
                               <Label text="Select all time slots that you are available for" />
                               <Label text="this semester" />
-                              <Label text="Please enter availability for each day" />
+                              <Label text="Please enter availability for each day Monday-Saturday" />
                               <TextField fx:id="signUpDayFieldCoach" promptText="Enter a day of the week" />
                            </children>
                         </VBox>
@@ -174,6 +176,11 @@
                            </children>
                         </HBox>
                         <Button fx:id="signUpConfirmButton" mnemonicParsing="false" onAction="#switchToSecondary" text="Confirm " />
+                        <ImageView fx:id="ramPNG" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/E:/BCS%20345/Codes%20for%20BCS%20345/GUI2/src/main/java/Images/FSC_Logo_1.png" />
+                           </image>
+                        </ImageView>
                      </children>
                   </VBox>
                   <VBox alignment="CENTER" prefHeight="483.0" prefWidth="834.0" spacing="20.0">
@@ -262,6 +269,21 @@
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
                                     <TextField fx:id="createPassword2" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="15.0" prefWidth="736.0" spacing="20.0">
+                           <children>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <Label text="Game " />
+                                    <Label text="(ie. Call of Duty)" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <TextField fx:id="gameName" />
                                  </children>
                               </VBox>
                            </children>

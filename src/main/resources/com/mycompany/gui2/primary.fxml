@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane prefHeight="407.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gui2.PrimaryController">
+<BorderPane prefHeight="407.0" prefWidth="612.0" style="-fx-background-color: BEIGE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gui2.PrimaryController">
    <center>
       <VBox alignment="CENTER" prefHeight="511.0" prefWidth="940.0" spacing="20.0">
          <children>

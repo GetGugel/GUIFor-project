@@ -19,7 +19,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="1276.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gui2.SecondaryController">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="1276.0" style="-fx-background-color: BEIGE;" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gui2.SecondaryController">
   <tabs>
     <Tab text="Home">
       <content>
@@ -37,9 +37,9 @@
                                     <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                                  </columnResizePolicy>
                               </TableView>
-                              <ImageView fitHeight="118.0" fitWidth="218.0" layoutX="2.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fx:id="Img1" fitHeight="217.0" fitWidth="289.0" layoutX="2.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../java/Images/1500x500.jfif" />
+                                    <Image url="file:/E:/BCS%20345/Codes%20for%20BCS%20345/GUI2/src/main/java/Images/FSC_Logo_1.png" />
                                  </image>
                               </ImageView>
                            </children>
@@ -61,7 +61,6 @@
                         <TableView prefHeight="200.0" BorderPane.alignment="CENTER">
                           <columns>
                               <TableColumn prefWidth="75.0" text="Player" />
-                              <TableColumn prefWidth="75.0" text="Sunday" />
                             <TableColumn prefWidth="75.0" text="Monday" />
                               <TableColumn prefWidth="75.0" text="Tuesday" />
                               <TableColumn prefWidth="75.0" text="Wednesday" />
@@ -75,9 +74,14 @@
                         </TableView>
                      </center>
                      <right>
-                        <VBox alignment="TOP_CENTER" prefHeight="371.0" prefWidth="75.0" BorderPane.alignment="CENTER">
+                        <VBox alignment="TOP_CENTER" prefHeight="573.0" prefWidth="151.0" BorderPane.alignment="CENTER">
                            <children>
                               <Label fx:id="timeDisplay" alignment="CENTER" text="time" />
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="file:/E:/BCS%20345/Codes%20for%20BCS%20345/GUI2/src/main/java/Images/guy.png" />
+                                 </image>
+                              </ImageView>
                            </children>
                         </VBox>
                      </right>
@@ -331,7 +335,15 @@
                                     <Font size="24.0" />
                                  </font>
                               </Label>
-                              <Label text="Created By" />
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="file:/E:/BCS%20345/Codes%20for%20BCS%20345/GUI2/src/main/java/Images/club.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Created By">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font></Label>
                               <Label text="Caleb" />
                               <Label text="Amoon" />
                               <Label text="Matthew" />

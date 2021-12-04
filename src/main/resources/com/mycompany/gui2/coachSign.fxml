@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="284.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gui2.coachSignIn">
+<AnchorPane prefHeight="284.0" prefWidth="789.0" style="-fx-background-color: BEIGE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gui2.coachSignIn">
    <children>
       <VBox prefHeight="437.0" prefWidth="776.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -24,7 +24,7 @@
                            <children>
                               <Label text="Select all time slots that you are available for" />
                               <Label text="this semester" />
-                              <Label text="Please enter availability for each day" />
+                              <Label text="Please enter availability for each day Monday-Saturday" />
                               <TextField fx:id="signUpDayFieldCoach" promptText="Enter a day of the week" />
                            </children>
                         </VBox>
@@ -173,7 +173,6 @@
                               </VBox>
                            </children>
                         </HBox>
-                        <Button mnemonicParsing="false" onAction="#switchToSecondary" text="Confirm " />
                      </children>
                   </VBox>
                   <VBox alignment="CENTER" prefHeight="483.0" prefWidth="834.0" spacing="20.0">
@@ -268,7 +267,7 @@
                         </HBox>
                         <HBox alignment="CENTER" prefHeight="3.0" prefWidth="736.0">
                            <children>
-                                <Button fx:id="createCoachAccountButton" onAction="#writeToTxt" text="Sign up">
+                                <Button fx:id="createCoachAccountButton" onAction="#switchToSecondary" text="Sign up">
                                  <HBox.margin>
                                     <Insets bottom="20.0" />
                                  </HBox.margin>

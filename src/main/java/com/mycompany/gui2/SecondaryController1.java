@@ -10,6 +10,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
 
 public class SecondaryController1 {
 
@@ -55,6 +56,12 @@ public class SecondaryController1 {
     private TextField signUpDayFieldCoach;
     @FXML
     private Button signUpConfirmButton;
+    @FXML
+    private TextField gameName;
+    @FXML
+    private ImageView ramPNG;
+    
+   
 
     @FXML
     private void switchToSecondary() throws IOException {

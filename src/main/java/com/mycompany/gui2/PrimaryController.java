@@ -18,6 +18,8 @@ public class PrimaryController {
     private Button signUpButton;
     @FXML
     private Button coachSignUp;
+    
+   
 
     @FXML
     private void switchToSecondary() throws IOException {
